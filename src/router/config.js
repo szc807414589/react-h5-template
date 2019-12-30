@@ -33,7 +33,6 @@ export const routesConfig = [
                 exact    : true,
                 component: User,
             },
-
         ],
     },
     {
@@ -77,12 +76,10 @@ export const routesConfig = [
                     },
                 ],
             },
+            {
+                to      : '/home',
+                redirect: true,
+            },
         ],
-    },
-    {
-	    to      : '/home',
-	    redirect: true,
-
-        // from:'/'
     },
 ];

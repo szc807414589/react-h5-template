@@ -20,7 +20,6 @@ function TabBarComponent ({ children }) {
         setCurrent(pathName);
     }
 
-    // const tabs = routesConfig.filter(v => v.isLayout).map(v=>!v.redirect)
     const tabs = [
         {
             path: '/home',
