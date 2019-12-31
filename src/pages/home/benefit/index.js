@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from 'antd-mobile';
+import {  withRouter } from 'react-router-dom';
 import history from '../../../history';
 
 class Benefit extends React.Component {
@@ -19,4 +20,4 @@ class Benefit extends React.Component {
     }
 
 }
-export default Benefit;
+export default withRouter(Benefit);

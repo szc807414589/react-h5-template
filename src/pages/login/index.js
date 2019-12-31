@@ -11,7 +11,7 @@ class Login extends React.Component {
                 <Button
                     className='test'
                     type='danger'
-                    onClick={ () => { history.push('/home') } }
+                    onClick={ () => { history.push('/') } }
                 >
 					go home
                 </Button>
